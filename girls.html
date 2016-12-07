@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+		<meta charset="UTF-8">
+		<title></title>
+		<style type="text/css">
+			body,ul,li,p,h1,h2,h3,h4,h5,h6{
+				margin: 0px;
+				padding: 0px;
+			}
+			body{
+				width: 100%;
+				height: 100%;
+				font: 12px/1.5em "微软雅黑" bold;
+				background: #edc4cb;
+			}
+			a{
+				text-decoration: none;
+			}
+			ul{
+				list-style: none;
+			}
+			img{
+				vertical-align: top;
+			}
+			#content{
+				position: relative;
+				margin: 0 auto;
+				max-width: 960px;
+				min-width: 320px;
+			}
+			
+			.top-nav{
+				position: fixed;
+				top: 0;
+				background: #AB0806;
+				width: 100%;
+				height: 42px;
+			   max-width: 960px;
+				min-width: 320px;
+				overflow: hidden;
+			
+			}
+			.nav-ul .return{
+				text-align: left;
+				 margin-top: 10px;
+				 padding-left: 1%;
+				 
+			}
+			.nav-ul .setting{
+				text-align: right; 
+				padding-right: 1%;
+				 margin-top: 10px;
+			}
+			
+			.nav-ul img{
+				width: 22px;
+				height: 22px;
+			}
+			.nav-ul li{
+				float: left;
+				width: 32%;
+				height: 42px;	
+				line-height: 42px;
+				 text-align: center;
+			}
+			.nav-ul a{
+				color: #FFFFFF;
+				font:14px bold;
+			}
+			.logo{
+				margin-top: 42px;
+			}
+			.logo img{
+				width: 100%;
+				height: 192px;
+			}
+			.search{
+				background: #000000;
+				opacity: 0.5;
+				width: 96%;
+				height: 36px;
+				border-radius: 8px;
+				margin: 8px 2%;
+			}
+			.search-sousou{
+				float: left;
+				width: 10%;
+				margin-left: 2%;
+				padding-top: 4px;
+			}
+			.search-text{
+				padding-top:4px;
+				float: left;
+				width: 70%;
+				
+			}
+			.search-text input{
+				width: 100%;
+				height: 25px;
+				background:transparent;
+				border: none;
+				color: #FFFFFF;
+			}
+			.search-go{
+				float: right;
+				width: 25px;
+				text-align: right;
+				padding: 5px 4% 0px 2%;
+				border-left: 1px solid #CCCCCC;
+			}
+			.nav{
+				width: 100%;
+				
+				text-align: center;
+			}
+			.nav ul{
+				overflow: hidden;
+				padding-bottom: 10px;
+			}
+			.nav li{
+				margin-top: 10px;
+				float: left;
+				width: 12.5%;
+			}
+			.nav p{
+				color: #333333;
+				font-size: 14px;
+			}
+			
+			.nav ul li img{
+				width: 35%;
+			    height: auto;
+				padding-bottom: 5px;
+			}
+			.sort-title{
+				width: 100%;
+				
+				
+			
+			}
+			.sort-title h2{
+				background: #8B2498;
+				color: #FFFFFF;
+				padding-bottom: 10px;
+				width: 98%;
+				height: 16px;
+				padding: 10px 0 10px 20px;
+			}
+			.title-ul{
+				margin-top: 10px;
+			}
+			.title-ul li{
+				
+				float: left;
+				width: 18%;
+				height: 240px;
+				margin: 1%;
+			}
+			.title-ul img{
+				width: 100%;
+				height: auto;
+			}
+			@media only screen and (max-width:960px) {
+				.title-ul li{
+					width: 23%;
+				}
+				
+				
+			}
+			@media only screen and (max-width:640px ) {
+				.title-ul li{
+					width: 31.3%;
+				}
+				.nav li{
+					width: 25%;
+				}
+			}
+			@media only screen and (max-width:480px ) {
+			 .title-ul li{
+			 	width: 48%;
+			 }	
+			}
+			
+		</style>
+	</head>
+	<body>
+		<div id="content">
+		   <div class="top-nav">
+		   	  <ul class="nav-ul">
+		   	  	<li class="return"><a href="#"><img src="images/return.png"/></a></li>
+		   	  	<li><a href="#">全民购物</a></li>
+		   	  	<li class="setting"><a href="#"><img src="images/setting.png"/></a></li>
+		   	  </ul> 
+		   </div>
+		   <div class="logo">
+		   	   <img src="images/logo.png"/>
+		   </div>
+		   <div class="search">
+		   	 <div class="search-sousou"><img width="25px"height="26px" src="images/sousuo.png"/></div>
+		   	   <div class="search-text"><input type="text" value="搜索商品"></div>
+		   	  <div class="search-go"><img width="25px"height="27px" src="images/go_search.png"/></div>  	  
+		   </div>
+		   <div class="nav">
+		   	   <ul>
+		   	   	<li><a href="#"><img src="images/nav1.png"/></a><p>用户</p></li>
+		   	   	<li><a href="#"><img src="images/nav2.png"/></a><p>消息</p></li>
+		   	   	<li><a href="#"><img src="images/nav3.png"/></a><p>文件</p></li>
+		   	   	<li><a href="#"><img src="images/nav4.png"/></a><p>图片</p></li>
+		   	   	<li><a href="#"><img src="images/nav5.png"/></a><p>音乐</p></li>
+		   	   	<li><a href="#"><img src="images/nav6.png"/></a><p>附近</p></li>
+		   	   	<li><a href="#"><img src="images/nav7.png"/></a><p>分类</p></li>
+		   	   	<li><a href="#"><img src="images/nav8.png"/></a><p>更多</p></li>
+		   	   </ul>
+		   </div>
+		   <div class="sort-title">
+		   	  <h2>魅力女装</h2>
+		   	   <ul class="title-ul">
+		   	   	<li><a href="#"><img src="images/brand1.png"/></a></li>
+		   	   	<li><a href="#"><img src="images/brand2.png"/></a></li>
+		   	   	<li><a href="#"><img src="images/brand3.png"/></a></li>
+		   	   	<li><a href="#"><img src="images/brand4.png"/></a></li>
+		   	   	<li><a href="#"><img src="images/brand5.png"/></a></li>
+		   	   	<li><a href="#"><img src="images/brand6.png"/></a></li>
+		   	   	<li><a href="#"><img src="images/brand7.png"/></a></li>
+		   	   	<li><a href="#"><img src="images/brand8.png"/></a></li>
+		   	   	<li><a href="#"><img src="images/brand9.png"/></a></li>
+		   	   	<li><a href="#"><img src="images/brand10.png"/></a></li>
+		   	   </ul>
+		   </div>
+		  
+		</div>
+	</body>
+</html>
